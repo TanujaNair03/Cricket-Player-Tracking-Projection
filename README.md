@@ -1,5 +1,19 @@
 # Cricket Player Tracking & Top-View Projection
 
+
+[![Video Demo](https://img.shields.io/badge/Project_Demo-Watch_Now-red?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1KkW4xrDGkhvBr7BWnwe4B3-pfRZ1x2VG/view?usp=sharing)
+
+## 📋 Project Overview
+This project implements an advanced computer vision pipeline designed to detect cricket players in match footage, assign persistent unique IDs for multi-object tracking, and project their real-time positions onto a 2D bird's-eye view of the field.
+
+### Key Features:
+* **Custom Player Detection:** Fine-tuned YOLOv11 model optimized for specialized cricket poses (batsmen, fielders).
+* **Persistent Tracking:** Implementation of ByteTrack to maintain unique IDs despite fast motion or partial occlusion.
+* **Spatial Mapping:** Homography-based coordinate transformation to map 3D camera perspectives onto a standard 2D ground reference.
+* **Visualization:** Side-by-side video output featuring synchronized tracking boxes, motion trails, and top-view markers.
+
+---
+
 ## 💿 Installation Instructions
 1. Clone this repository or download the project files.
 2. Open the `.ipynb` notebook in **Google Colab**.
@@ -31,6 +45,4 @@ You can install them all at once using:
 - **Inference Size:** `imgsz=1280` (High resolution to detect distant fielders).
 - **Field Boundary:** A 7-point polygon mask used to exclude spectators from tracking.
 
-## 📺 Project Demo
-You can view the final processed output video here:
-[Click to Watch: Cricket Player Tracking Demo](https://drive.google.com/file/d/1KkW4xrDGkhvBr7BWnwe4B3-pfRZ1x2VG/view?usp=sharing)
+
