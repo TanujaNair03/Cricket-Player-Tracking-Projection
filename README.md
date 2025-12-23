@@ -30,3 +30,7 @@ You can install them all at once using:
 - **Tracking:** `ByteTrack` algorithm with a 30-frame patience buffer.
 - **Inference Size:** `imgsz=1280` (High resolution to detect distant fielders).
 - **Field Boundary:** A 7-point polygon mask used to exclude spectators from tracking.
+
+## 📺 Project Demo
+You can view the final processed output video here:
+[Click to Watch: Cricket Player Tracking Demo](https://drive.google.com/file/d/1KkW4xrDGkhvBr7BWnwe4B3-pfRZ1x2VG/view?usp=sharing)
