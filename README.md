@@ -34,7 +34,7 @@ You can install them all at once using:
 
 ## 🚀 Steps to Run the Complete Pipeline
 1. **Setup:** Run the first cell to import libraries and mount Google Drive.
-2. **Data Prep (Optional):** Run the Data Cleaning block if you wish to see how the raw labels were filtered.
+2. **Data Prep:** Run the Data Cleaning block if you wish to see how the raw labels were filtered.
 3. **Calibration:** Execute the Homography Calibration cell. This establishes the 4-point mapping between the Video pitch and the Ground Map.
 4. **Inference:** Run the Final Submission block. This loads the `best.pt` weights, processes the video, and generates the side-by-side tracking visualization.
 
